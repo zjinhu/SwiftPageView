@@ -12,7 +12,7 @@ PODS:
     - Kingfisher/Core (= 5.15.4)
   - Kingfisher/Core (5.15.4)
   - SnapKit (5.0.1)
-  - SwiftPageView (0.1.0)
+  - SwiftPageView (0.2.0)
 
 DEPENDENCIES:
   - JXPageControl
@@ -34,7 +34,7 @@ SPEC CHECKSUMS:
   JXPageControl: eea52838699a4949063e600b25eb9e8b6e20ae3f
   Kingfisher: 657dc1077e5bbbfff864194c79f29e35b722d062
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
-  SwiftPageView: 226da9e8ebf08c535259393921190310d9d1d870
+  SwiftPageView: 58c0204cd3952e062737d9068c77d3d03e61200c
 
 PODFILE CHECKSUM: 101de9564a8fe5e53ea76971dabd9278700b18b5
 
