@@ -21,7 +21,7 @@ public protocol PageViewDataSource : class {
 
 }
 
-@objc public protocol  PageViewDelegeta {
+@objc public protocol  PageViewDelegete {
     
     /// 代理: 返回点击page的序号
     /// - Parameters:
@@ -89,7 +89,7 @@ extension PageView{
 
 public class PageView: UIView {
 
-    public weak var delegate: PageViewDelegeta?
+    public weak var delegate: PageViewDelegete?
     public weak var dataSource: PageViewDataSource?
     
     public enum ScrollDirection: Int {
