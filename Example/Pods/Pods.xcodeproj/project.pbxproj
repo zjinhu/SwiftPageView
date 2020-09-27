@@ -12,7 +12,6 @@
 		027E2486C19CC46B39471158E79A7B46 /* NSTextAttachment+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B548661C2FA7BCE376EACA4C146842 /* NSTextAttachment+Kingfisher.swift */; };
 		039EAFE7935113805F3FC21BF1B7C9D5 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC09A6CBECBC73AAF624C9EAE727AA5 /* LayoutConstraint.swift */; };
 		04543980C4A7CE442330B0F1BC4A9A54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3BF06BD92238CB43628415C234BF25 /* Foundation.framework */; };
-		04F02A65F1FF7588F1AF1EE260D76FAB /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D699C714CB8FB36D2E52E799001A004 /* PageView.swift */; };
 		0746BEC5701F9C0A9F8E454D906C32F1 /* JXPageControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30D41D00EB47192E50719FF3809B74D9 /* JXPageControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0804AD09ED5831B31E86E859FDB30547 /* SessionDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA21182FAC29E1A09247975A6074FD6 /* SessionDataTask.swift */; };
 		0E8DFC5FA11EAF54F5BA5C6F74598A31 /* DiskStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C246AF07C76FA834B2EC9360C14934 /* DiskStorage.swift */; };
@@ -35,7 +34,6 @@
 		3E5285F4F36EAD77ECABBFB7F36BB1BB /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717D91E2B19F97F99C0E243C4787EFBA /* ConstraintView+Extensions.swift */; };
 		3FC3C4CB296DCBE2C0AFB8E04BFF61C0 /* Kingfisher.h in Headers */ = {isa = PBXBuildFile; fileRef = C6A968D50D4BAA73B9469545B0F30A29 /* Kingfisher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		46750D07F1DD456703E250008AE980AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3BF06BD92238CB43628415C234BF25 /* Foundation.framework */; };
-		491D0FA73BBB9A3E723988F3BDBB8D14 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455D14AE56316983DBE3DD6B22A863C9 /* PageCell.swift */; };
 		4C7A676DAE95EEAC3787A75349F0862D /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD14879486D1E8289C2614EBC0224ED3 /* SnapKit-dummy.m */; };
 		518C88703149A2FCCB23D4DA0C7F13D6 /* RetryStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEFEEA72373F14FA98E062B412B1300 /* RetryStrategy.swift */; };
 		51AE4EA704D96E54347A8479EE186E39 /* ImageDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA8D9CF67336FEF4ED67E701F75F07 /* ImageDataProvider.swift */; };
@@ -48,13 +46,13 @@
 		606142981CD9496C4C10AE0044DC37B9 /* JXPageControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0A0F4E5569B03A49625FF977C847E2 /* JXPageControl-dummy.m */; };
 		6219ACB5D19E116541D8949A4F2EDBAC /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E646DD382F0141C171A9E607E4ECA8 /* Delegate.swift */; };
 		630150D51673946C0B91ECA1EBDF112D /* Runtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A38C17AF2B3A6EB41C3F62B329C80E /* Runtime.swift */; };
-		6444B77D178B5FB3AF00EF78A773C132 /* SwiftPageView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EF36DD5E32F4E0392A683F042FD8F01 /* SwiftPageView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6444B77D178B5FB3AF00EF78A773C132 /* SwiftPageView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D0A83EB6144691BC17EB8707885349F /* SwiftPageView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64861CDC0849BE05DF46305F28CFAD57 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914BC263E4E7A8B633C745AC657EE68B /* Image.swift */; };
 		67E154386E8ABFF835DBE0F3A9233651 /* ImageDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7D2544092548EC751F3B346DB6B4C2 /* ImageDrawing.swift */; };
 		69CCBEEDFCA6D743D80026568D961919 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A3BC09DC4B9C155DA533E6F738E8E1 /* ConstraintMakerExtendable.swift */; };
 		69E3A06BBDFDC7D06A9D4BDC4E895E73 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D00C12C52DBC89D2CDDC683582841E5 /* ConstraintRelatableTarget.swift */; };
+		6D12667A881AC4ACB8B3B676C3CD8DDD /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31E787DBB2960F3FE69B6A0ED3ABAEE /* PageCell.swift */; };
 		6E0EB9E7FAAEDBB7A73ECF3095F69C4A /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F03167F372CDC0AF0D35017D802141 /* UILayoutSupport+Extensions.swift */; };
-		6E277707579A2807F12087ADC732F90C /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0527D593D61387B6A524A766E0AD81D2 /* Layout.swift */; };
 		71DE9DC2FA583526AB4D1FD7F00C099C /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B97747ED5F16D9EB28D321E78E9597 /* ConstraintDirectionalInsetTarget.swift */; };
 		745CD4DB5152686A55CE19147E4625E4 /* AVAssetImageDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D829B7B68C3B8EFE9C7EE2AE62C5D55C /* AVAssetImageDataProvider.swift */; };
 		75E146C12D1287228A0B493E87CDE31F /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F23ADBF155920224890A0AC1C7096D /* ConstraintMakerRelatable.swift */; };
@@ -95,7 +93,7 @@
 		BA3DB1239379CB8C39455E133B90C098 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4439BCA8312E4998EABBB5B2F5D9C8D4 /* CFNetwork.framework */; };
 		BD411ED50F93EA008F69E3AD312BB0AF /* NSButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CFED881818655155D7AEC5C5158053 /* NSButton+Kingfisher.swift */; };
 		BECA67DFB5E0984DFAEFCB775C31972E /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4FC62CAF24BE76B234967E4C418644 /* ConstraintView.swift */; };
-		C0B8A65D5758EB7934E1A9AD1A900484 /* SwiftPageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6DA9C3FCA1A69841A8A480E1C26AC4 /* SwiftPageView-dummy.m */; };
+		C0B8A65D5758EB7934E1A9AD1A900484 /* SwiftPageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E14CABEB7AD8754E71E41A462F67172 /* SwiftPageView-dummy.m */; };
 		C3041EE7D4BFD6B9D1169E2F299F89D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3BF06BD92238CB43628415C234BF25 /* Foundation.framework */; };
 		C412F27D75AFC0DF0F0289DBB270931C /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB45722B52D7CC2B45EFE1C1F8FDD7C /* ConstraintMakerFinalizable.swift */; };
 		C4BD39CEF5FC32DFFA83E2209F81612A /* ImageDownloaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB545A7543A1C2BD4D5336C5893EC75 /* ImageDownloaderDelegate.swift */; };
@@ -107,10 +105,12 @@
 		D4257BF0367E3FA89F717E36AAA1AA07 /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F5CF1A4EA26FF6ABFC98A91957AA96 /* MemoryStorage.swift */; };
 		D4697DC40F3B059E4A0867838CA1814E /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD447FC1EFC240EFB088D7955D4B94A /* ConstraintMultiplierTarget.swift */; };
 		D485F84D05893D47E6C06A923433A2EA /* JXPageControlChameleon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1DA92BC8EEC579B66FFE14DDBE6542 /* JXPageControlChameleon.swift */; };
+		DDD40F93F60ACBCDFD76FF1BC7835664 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36538B8A6B883294437885B2A1A7DA21 /* PageView.swift */; };
 		DF29AA9B5533A7347EA3523F47269C10 /* JXPageControlJump.swift in Sources */ = {isa = PBXBuildFile; fileRef = F926B7CD31782188798EDC87EB8DBC1E /* JXPageControlJump.swift */; };
 		DF4BF92C8C1919D42C17B5128D243FD2 /* WKInterfaceImage+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E77AD0C722D38D811B9049D599A1B5 /* WKInterfaceImage+Kingfisher.swift */; };
 		E00F8B6B5470A59A3680E3E34B74D153 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1121D0308B1DA9AD50156A47F4E4B6FE /* ImageProcessor.swift */; };
 		E163147882AFA50515D46A4C0F87E682 /* JXPageControlScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6231900880F627A72A66261DD3040A9A /* JXPageControlScale.swift */; };
+		E172968BBE3E248E6C6935B1E3983F22 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205407113DAB915B02107C0074ABF545 /* Layout.swift */; };
 		E4068F3E38E5A7E624480531A7A1A80C /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813FCE4B4CAE6AEA8FCC3D78A230BC47 /* Filter.swift */; };
 		E62504085073946D2FD1A59E74C45CD2 /* JXPageControlEllipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8167D7E5C6C74241F3786138978479 /* JXPageControlEllipse.swift */; };
 		E8F2429683B3015CBD39CE883770BCA7 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00ABCB0EABB2CCA5A8A1013AE520857 /* ConstraintPriorityTarget.swift */; };
@@ -160,16 +160,15 @@
 
 /* Begin PBXFileReference section */
 		031F14DF106EE0F9AD0EFA1AACD6BA60 /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Sources/Networking/RedirectHandler.swift; sourceTree = "<group>"; };
-		0527D593D61387B6A524A766E0AD81D2 /* Layout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Layout.swift; path = SwiftPageView/Classes/Layout.swift; sourceTree = "<group>"; };
 		05C3F2D658C5FAD697634FEFCC107FDF /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Kingfisher.modulemap; sourceTree = "<group>"; };
 		0722E4F18CA264BA6C67707F20A7DBA7 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
 		08A6B7DF5A7125AE183F9771CB78EAD4 /* ImageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTransition.swift; path = Sources/Image/ImageTransition.swift; sourceTree = "<group>"; };
-		0A6DA9C3FCA1A69841A8A480E1C26AC4 /* SwiftPageView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftPageView-dummy.m"; sourceTree = "<group>"; };
 		0E7D2544092548EC751F3B346DB6B4C2 /* ImageDrawing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDrawing.swift; path = Sources/Image/ImageDrawing.swift; sourceTree = "<group>"; };
 		100C4294010E7E4AFE8C26BC774C686C /* RequestModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestModifier.swift; path = Sources/Networking/RequestModifier.swift; sourceTree = "<group>"; };
 		10B6E702675C8D35D866F70644B142F9 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
 		1121D0308B1DA9AD50156A47F4E4B6FE /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/Image/ImageProcessor.swift; sourceTree = "<group>"; };
 		121C545BFA5363592D83F228033CA9FD /* SizeExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SizeExtensions.swift; path = Sources/Utility/SizeExtensions.swift; sourceTree = "<group>"; };
+		12422665B694D668A592BD7638B05077 /* SwiftPageView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftPageView-Info.plist"; sourceTree = "<group>"; };
 		16B4BCA7215907F5108EF70BBE5E2CC9 /* JXPageControlTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPageControlTool.swift; path = JXPageControl/Classes/Common/JXPageControlTool.swift; sourceTree = "<group>"; };
 		1863AD740349A0BAEA613828F7643F05 /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Sources/General/ImageSource/Resource.swift; sourceTree = "<group>"; };
 		19A18DBEBEC606D7E5A44FA208B67BBE /* SnapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.release.xcconfig; sourceTree = "<group>"; };
@@ -179,29 +178,29 @@
 		1DE7DD7F07EF375689CB38CD3BB62F9D /* CacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheSerializer.swift; path = Sources/Cache/CacheSerializer.swift; sourceTree = "<group>"; };
 		1EEFEEA72373F14FA98E062B412B1300 /* RetryStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryStrategy.swift; path = Sources/Networking/RetryStrategy.swift; sourceTree = "<group>"; };
 		2047204C97D2624A6BC4F7876F56664B /* Pods-SwiftPageView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftPageView_Example-Info.plist"; sourceTree = "<group>"; };
+		205407113DAB915B02107C0074ABF545 /* Layout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Layout.swift; path = Sources/Layout.swift; sourceTree = "<group>"; };
 		2076EAC3F0083FB49CECCFF8B3C6405A /* Pods_SwiftPageView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftPageView_Example.framework; path = "Pods-SwiftPageView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2294CC08346BD726FBCE50149D6894E8 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
 		22ECCE90EB2E0931726A0DC1FDAF3190 /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/Utility/String+MD5.swift"; sourceTree = "<group>"; };
 		278436A51F21987A47D4A98F1B86D68C /* JXPageControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JXPageControl.modulemap; sourceTree = "<group>"; };
+		2866F7D24CFF2B8920D7939505AC1F77 /* SwiftPageView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftPageView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2C04F43A49426EB3BA782AC32E802F1E /* Pods-SwiftPageView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftPageView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2C2959F5465DEFFEB59BCB4EDF28316C /* Source.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Source.swift; path = Sources/General/ImageSource/Source.swift; sourceTree = "<group>"; };
-		2EF36DD5E32F4E0392A683F042FD8F01 /* SwiftPageView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftPageView-umbrella.h"; sourceTree = "<group>"; };
 		2F705F04E66199049E4099FCC594BC43 /* Pods-SwiftPageView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftPageView_Example-dummy.m"; sourceTree = "<group>"; };
 		2FD048A6E7BF196705FF3740DBAF2DDC /* Pods-SwiftPageView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftPageView_Example-umbrella.h"; sourceTree = "<group>"; };
 		30A9E83DB591E135F54DB4F118BEC8B3 /* ExtensionHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionHelpers.swift; path = Sources/Utility/ExtensionHelpers.swift; sourceTree = "<group>"; };
 		30D41D00EB47192E50719FF3809B74D9 /* JXPageControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXPageControl-umbrella.h"; sourceTree = "<group>"; };
-		31C8D313D0EDC5DBDEB1DD1C70293BA2 /* SwiftPageView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftPageView-Info.plist"; sourceTree = "<group>"; };
 		327685BEBD23E5197BD9033DE58E6C37 /* ImagePrefetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePrefetcher.swift; path = Sources/Networking/ImagePrefetcher.swift; sourceTree = "<group>"; };
 		346CE50E7292FE8AD5BF9D33C128DD70 /* Kingfisher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.release.xcconfig; sourceTree = "<group>"; };
 		349DA5DF53810DEED692D2B90FE3BE33 /* Pods-SwiftPageView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftPageView_Example.modulemap"; sourceTree = "<group>"; };
+		36538B8A6B883294437885B2A1A7DA21 /* PageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageView.swift; path = Sources/PageView.swift; sourceTree = "<group>"; };
 		367AE01017F63DDC06AB1DF1A9D5C580 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Utility/Result.swift; sourceTree = "<group>"; };
 		36E503EE2CF38586B0F9A944457F836D /* Kingfisher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.debug.xcconfig; sourceTree = "<group>"; };
 		38C5212B46ED63F574762244454FDDFD /* JXPageControlBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPageControlBase.swift; path = JXPageControl/Classes/Common/JXPageControlBase.swift; sourceTree = "<group>"; };
 		394BA9667767B05039FC313302410256 /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsets.swift; path = Source/ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
 		3CB545A7543A1C2BD4D5336C5893EC75 /* ImageDownloaderDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloaderDelegate.swift; path = Sources/Networking/ImageDownloaderDelegate.swift; sourceTree = "<group>"; };
-		41C92E0F61E0BC1D1D679AFB95F4550A /* SwiftPageView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftPageView.debug.xcconfig; sourceTree = "<group>"; };
+		3D0A83EB6144691BC17EB8707885349F /* SwiftPageView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftPageView-umbrella.h"; sourceTree = "<group>"; };
 		4439BCA8312E4998EABBB5B2F5D9C8D4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		455D14AE56316983DBE3DD6B22A863C9 /* PageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageCell.swift; path = SwiftPageView/Classes/PageCell.swift; sourceTree = "<group>"; };
 		47AA4C37FF1C9A87669C968DC61FFDA9 /* Pods-SwiftPageView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftPageView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		47F23ADBF155920224890A0AC1C7096D /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
 		48B548661C2FA7BCE376EACA4C146842 /* NSTextAttachment+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSTextAttachment+Kingfisher.swift"; path = "Sources/Extensions/NSTextAttachment+Kingfisher.swift"; sourceTree = "<group>"; };
@@ -209,6 +208,7 @@
 		4C5D00B3E8CF4FD8B8058CCB6DE91E30 /* Deprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecated.swift; path = Sources/General/Deprecated.swift; sourceTree = "<group>"; };
 		4D00C12C52DBC89D2CDDC683582841E5 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
 		4D5B4A6FC2B5F69C90AE3BFF1FA299E1 /* JXPageControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JXPageControl-Info.plist"; sourceTree = "<group>"; };
+		4E14CABEB7AD8754E71E41A462F67172 /* SwiftPageView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftPageView-dummy.m"; sourceTree = "<group>"; };
 		50ECCA4C0CB97822CE8F385C7B004C14 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
 		51700074C709C5DCBD2C7BB1480D1B6E /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Sources/General/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
 		52BEF966C6291504AED8AB3C4C1FB2A9 /* ImageDataProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDataProcessor.swift; path = Sources/Networking/ImageDataProcessor.swift; sourceTree = "<group>"; };
@@ -238,8 +238,8 @@
 		81C831C7DCC119A42E2E03C4CDD921CF /* Kingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-umbrella.h"; sourceTree = "<group>"; };
 		850C34E5B7F92CD8F12C284545915357 /* JXPageControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXPageControl.release.xcconfig; sourceTree = "<group>"; };
 		86F5A649FAF87C097DBA50776609197D /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
-		87C24A8EBF9389E1F7DDA643604A3DD8 /* SwiftPageView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftPageView.release.xcconfig; sourceTree = "<group>"; };
 		88DFFF076132A00AC6C48E13C6151485 /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/General/KingfisherManager.swift; sourceTree = "<group>"; };
+		8B809518C1FFBA00551D45EF295E31F5 /* SwiftPageView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftPageView-prefix.pch"; sourceTree = "<group>"; };
 		8BEA8D9CF67336FEF4ED67E701F75F07 /* ImageDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDataProvider.swift; path = Sources/General/ImageSource/ImageDataProvider.swift; sourceTree = "<group>"; };
 		8C80771A217B3765E24D584FC8E44362 /* FormatIndicatedCacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormatIndicatedCacheSerializer.swift; path = Sources/Cache/FormatIndicatedCacheSerializer.swift; sourceTree = "<group>"; };
 		8C905EC7DC5AFF549EA70B763F5E3932 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
@@ -254,10 +254,9 @@
 		980F08E097C687090BAFB19C9164DA3C /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
 		9AAF2F8FDCF276789EE88561999D7364 /* ImageProgressive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProgressive.swift; path = Sources/Image/ImageProgressive.swift; sourceTree = "<group>"; };
 		9CD447FC1EFC240EFB088D7955D4B94A /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
-		9D699C714CB8FB36D2E52E799001A004 /* PageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageView.swift; path = SwiftPageView/Classes/PageView.swift; sourceTree = "<group>"; };
+		9D2494F9A3CCE6A4BB9D423B94350337 /* SwiftPageView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftPageView.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EA21182FAC29E1A09247975A6074FD6 /* SessionDataTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDataTask.swift; path = Sources/Networking/SessionDataTask.swift; sourceTree = "<group>"; };
-		A6434451A0E819409819D41389366660 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		A66AD5644CA784A37060ECEC3E32BE97 /* GIFAnimatedImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GIFAnimatedImage.swift; path = Sources/Image/GIFAnimatedImage.swift; sourceTree = "<group>"; };
 		A832509843DA269F626C5D8429E8A773 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
 		AE0A0F4E5569B03A49625FF977C847E2 /* JXPageControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JXPageControl-dummy.m"; sourceTree = "<group>"; };
@@ -266,10 +265,10 @@
 		B4542B30B19AE8EB09A008DE29AAF6ED /* JXPageControlType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPageControlType.swift; path = JXPageControl/Classes/Common/JXPageControlType.swift; sourceTree = "<group>"; };
 		B5F4ACE2670ED2B69E7AE0921ADEB103 /* Pods-SwiftPageView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftPageView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B8FCF886AE0D15E6F90A4B6D8A9C4223 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
-		BD1BBEC5AAC9660E6E07935397520199 /* SwiftPageView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftPageView-prefix.pch"; sourceTree = "<group>"; };
 		BE26EFD5EA572F1538BA2C3A3884F6E6 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
 		BF72836FA125CD19F3E0E4C37774CD08 /* Storage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Storage.swift; path = Sources/Cache/Storage.swift; sourceTree = "<group>"; };
 		C10D98ED223BB3F2FC9EC57FD1D2ECC2 /* SnapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.debug.xcconfig; sourceTree = "<group>"; };
+		C1B2724EBFF7CD6C2498E26F2C16E1B1 /* SwiftPageView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftPageView.modulemap; sourceTree = "<group>"; };
 		C2C8A4838C3A77D13E58EC4A032AF888 /* JXPageControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXPageControl-prefix.pch"; sourceTree = "<group>"; };
 		C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6A968D50D4BAA73B9469545B0F30A29 /* Kingfisher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kingfisher.h; path = Sources/Kingfisher.h; sourceTree = "<group>"; };
@@ -277,7 +276,6 @@
 		C7A38C17AF2B3A6EB41C3F62B329C80E /* Runtime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Runtime.swift; path = Sources/Utility/Runtime.swift; sourceTree = "<group>"; };
 		C955D57C6101E5AB017C29562EF39507 /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/Extensions/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
 		CABAF064C8992AA485DB1FB32123BDC2 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
-		CC81765037EC7D4C5DA8E6DDFEA75EFA /* SwiftPageView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftPageView.modulemap; sourceTree = "<group>"; };
 		CD14879486D1E8289C2614EBC0224ED3 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
 		CE167823DE2165E984CED9548FC96C65 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
 		D007E85DF70A86301C3DD6DB386A1139 /* JXPageControlLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPageControlLine.swift; path = JXPageControl/Classes/Jump/JXPageControlLine.swift; sourceTree = "<group>"; };
@@ -287,7 +285,10 @@
 		D60EA4FC8E7E54F2D6C4284EFC611E37 /* KingfisherError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherError.swift; path = Sources/General/KingfisherError.swift; sourceTree = "<group>"; };
 		D79E2D80C1F6CBAE7E1357AE56D3E502 /* Pods-SwiftPageView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftPageView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D829B7B68C3B8EFE9C7EE2AE62C5D55C /* AVAssetImageDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AVAssetImageDataProvider.swift; path = Sources/General/ImageSource/AVAssetImageDataProvider.swift; sourceTree = "<group>"; };
+		DA31E349C03524EF61234EA0668CB1C0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		DAD6C27219BBA58CF459572093304C15 /* CallbackQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallbackQueue.swift; path = Sources/Utility/CallbackQueue.swift; sourceTree = "<group>"; };
+		DBB6A346F4F6380CB6A325ABF93E709F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DC8CCCCC3B8F14D4BD44B62555CB7F6D /* SwiftPageView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftPageView.release.xcconfig; sourceTree = "<group>"; };
 		DC91E2A4F5DB5798BC407E6AC7FBF0D0 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
 		E4E8C4E46A8FE90905EE207F563E636E /* JXPageControlExchange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPageControlExchange.swift; path = JXPageControl/Classes/Transform/JXPageControlExchange.swift; sourceTree = "<group>"; };
 		E5B8374EE66FF803B43995EEA7998278 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Sources/Networking/SessionDelegate.swift; sourceTree = "<group>"; };
@@ -300,15 +301,14 @@
 		EF1B69A67E54E09F929273D12536ADFC /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
 		F00ABCB0EABB2CCA5A8A1013AE520857 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
 		F1CFED881818655155D7AEC5C5158053 /* NSButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSButton+Kingfisher.swift"; path = "Sources/Extensions/NSButton+Kingfisher.swift"; sourceTree = "<group>"; };
+		F31E787DBB2960F3FE69B6A0ED3ABAEE /* PageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageCell.swift; path = Sources/PageCell.swift; sourceTree = "<group>"; };
 		F496A345338531FEBEAEF922D1939ADF /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Sources/Networking/ImageDownloader.swift; sourceTree = "<group>"; };
 		F5284EE62161C612A9C8A5AC742284D1 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
 		F6FB96A6305B690516134F483C29645A /* ImageFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFormat.swift; path = Sources/Image/ImageFormat.swift; sourceTree = "<group>"; };
 		F8E07935E32C9523902D94ABB2DDB182 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
 		F926B7CD31782188798EDC87EB8DBC1E /* JXPageControlJump.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPageControlJump.swift; path = JXPageControl/Classes/Jump/JXPageControlJump.swift; sourceTree = "<group>"; };
 		F990EBC7806CC844E76CD83A3C988CBD /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
-		F9DAF60091B189C68C1411D4F372FCBB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		FAB45722B52D7CC2B45EFE1C1F8FDD7C /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
-		FE7E1573848CC77B30609A9A8FDBAE9C /* SwiftPageView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftPageView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -357,21 +357,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03C3BAF3B339AFEB168A49E4F92A1634 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CC81765037EC7D4C5DA8E6DDFEA75EFA /* SwiftPageView.modulemap */,
-				0A6DA9C3FCA1A69841A8A480E1C26AC4 /* SwiftPageView-dummy.m */,
-				31C8D313D0EDC5DBDEB1DD1C70293BA2 /* SwiftPageView-Info.plist */,
-				BD1BBEC5AAC9660E6E07935397520199 /* SwiftPageView-prefix.pch */,
-				2EF36DD5E32F4E0392A683F042FD8F01 /* SwiftPageView-umbrella.h */,
-				41C92E0F61E0BC1D1D679AFB95F4550A /* SwiftPageView.debug.xcconfig */,
-				87C24A8EBF9389E1F7DDA643604A3DD8 /* SwiftPageView.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SwiftPageView";
-			sourceTree = "<group>";
-		};
 		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -383,19 +368,9 @@
 		0D289AD4794D4FE4F0415B0E5D21F91C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				98113A1BB52EC8B924B2242702A75AD1 /* SwiftPageView */,
+				D2ED4B5E57DD0A4442B6DD0038A98DA8 /* SwiftPageView */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		159F7DC5818CAEF90671B1A9E31D7DCA /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F9DAF60091B189C68C1411D4F372FCBB /* LICENSE */,
-				A6434451A0E819409819D41389366660 /* README.md */,
-				FE7E1573848CC77B30609A9A8FDBAE9C /* SwiftPageView.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		1FD596E2C1F604A8F307D2AEBAFF0908 /* Support Files */ = {
@@ -473,17 +448,14 @@
 			name = Common;
 			sourceTree = "<group>";
 		};
-		98113A1BB52EC8B924B2242702A75AD1 /* SwiftPageView */ = {
+		9C719C5292B87FBBC14B34C90B26AF67 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				0527D593D61387B6A524A766E0AD81D2 /* Layout.swift */,
-				455D14AE56316983DBE3DD6B22A863C9 /* PageCell.swift */,
-				9D699C714CB8FB36D2E52E799001A004 /* PageView.swift */,
-				159F7DC5818CAEF90671B1A9E31D7DCA /* Pod */,
-				03C3BAF3B339AFEB168A49E4F92A1634 /* Support Files */,
+				DA31E349C03524EF61234EA0668CB1C0 /* LICENSE */,
+				DBB6A346F4F6380CB6A325ABF93E709F /* README.md */,
+				2866F7D24CFF2B8920D7939505AC1F77 /* SwiftPageView.podspec */,
 			);
-			name = SwiftPageView;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		A7B1D9FF7E076ECFD0BA24513C80B3C9 /* Pods-SwiftPageView_Example */ = {
@@ -555,6 +527,19 @@
 				B54A014F94FBADF8CA0EB0662E6A1261 /* Products */,
 				B689AD290BBE9BEC84B279903021B9DF /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D2ED4B5E57DD0A4442B6DD0038A98DA8 /* SwiftPageView */ = {
+			isa = PBXGroup;
+			children = (
+				205407113DAB915B02107C0074ABF545 /* Layout.swift */,
+				F31E787DBB2960F3FE69B6A0ED3ABAEE /* PageCell.swift */,
+				36538B8A6B883294437885B2A1A7DA21 /* PageView.swift */,
+				9C719C5292B87FBBC14B34C90B26AF67 /* Pod */,
+				FA3B8CEF32170CDC6207AB5330A09B47 /* Support Files */,
+			);
+			name = SwiftPageView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		D3AD7218C967BC2A5AE5127C9E38C7A9 /* SnapKit */ = {
@@ -680,6 +665,21 @@
 				8D3BF06BD92238CB43628415C234BF25 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		FA3B8CEF32170CDC6207AB5330A09B47 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1B2724EBFF7CD6C2498E26F2C16E1B1 /* SwiftPageView.modulemap */,
+				4E14CABEB7AD8754E71E41A462F67172 /* SwiftPageView-dummy.m */,
+				12422665B694D668A592BD7638B05077 /* SwiftPageView-Info.plist */,
+				8B809518C1FFBA00551D45EF295E31F5 /* SwiftPageView-prefix.pch */,
+				3D0A83EB6144691BC17EB8707885349F /* SwiftPageView-umbrella.h */,
+				9D2494F9A3CCE6A4BB9D423B94350337 /* SwiftPageView.debug.xcconfig */,
+				DC8CCCCC3B8F14D4BD44B62555CB7F6D /* SwiftPageView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SwiftPageView";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -999,9 +999,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E277707579A2807F12087ADC732F90C /* Layout.swift in Sources */,
-				491D0FA73BBB9A3E723988F3BDBB8D14 /* PageCell.swift in Sources */,
-				04F02A65F1FF7588F1AF1EE260D76FAB /* PageView.swift in Sources */,
+				E172968BBE3E248E6C6935B1E3983F22 /* Layout.swift in Sources */,
+				6D12667A881AC4ACB8B3B676C3CD8DDD /* PageCell.swift in Sources */,
+				DDD40F93F60ACBCDFD76FF1BC7835664 /* PageView.swift in Sources */,
 				C0B8A65D5758EB7934E1A9AD1A900484 /* SwiftPageView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1065,7 +1065,7 @@
 /* Begin XCBuildConfiguration section */
 		050CA813ACA1D4C29F9F31F496F20142 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41C92E0F61E0BC1D1D679AFB95F4550A /* SwiftPageView.debug.xcconfig */;
+			baseConfigurationReference = 9D2494F9A3CCE6A4BB9D423B94350337 /* SwiftPageView.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1389,7 +1389,7 @@
 		};
 		CB9CB3BB2692477D999BB3A4127C0222 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87C24A8EBF9389E1F7DDA643604A3DD8 /* SwiftPageView.release.xcconfig */;
+			baseConfigurationReference = DC8CCCCC3B8F14D4BD44B62555CB7F6D /* SwiftPageView.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;

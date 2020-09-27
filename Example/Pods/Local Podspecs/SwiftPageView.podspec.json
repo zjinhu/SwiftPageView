@@ -23,7 +23,7 @@
     "5.1",
     "5.2"
   ],
-  "source_files": "SwiftPageView/**/*",
+  "source_files": "Sources/**/*",
   "requires_arc": true,
   "swift_version": "5.2"
 }
