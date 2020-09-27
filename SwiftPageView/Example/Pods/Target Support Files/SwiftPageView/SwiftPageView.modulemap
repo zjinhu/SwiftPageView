@@ -1,0 +1,6 @@
+framework module SwiftPageView {
+  umbrella header "SwiftPageView-umbrella.h"
+
+  export *
+  module * { export * }
+}
