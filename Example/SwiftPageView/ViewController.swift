@@ -79,7 +79,7 @@ class ViewController: UIViewController{
 
 }
 
-extension ViewController:  PageViewDataSource, PageViewDelegete {
+extension ViewController:  PageViewDataSource, PageViewDelegate {
     
     func numberOfItems(in pageView: PageView) -> Int {
         guard let aa = array else {
