@@ -380,6 +380,16 @@ extension PageView: UICollectionViewDelegate,UICollectionViewDataSource{
         }
     }
     
+    public func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
+        if let function = delegate?.pageView(_:didScrollToItemAt:){
+            let currentIndex = lround(Double(scrollOffset)) % numberOfItems
+            if (currentIndex != currentIndex) {
+                self.currentIndex = currentIndex
+            }
+            function(self,currentIndex)
+        }
+    }
+    
     public func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         if let function = delegate?.pageViewDidEndDecelerating {
             function(self)
@@ -395,6 +405,7 @@ extension PageView: UICollectionViewDelegate,UICollectionViewDataSource{
             }
             function(self,currentIndex)
         }
+        
         if let function = delegate?.pageViewDidEndScrollAnimation {
             function(self)
         }

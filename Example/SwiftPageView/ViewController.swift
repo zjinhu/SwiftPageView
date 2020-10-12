@@ -38,8 +38,8 @@ class ViewController: UIViewController{
         banner.delegate = self
         banner.automaticSlidingInterval = 3
         banner.backgroundColor = .cyan
-        banner.interitemSpacing = 20
-        banner.itemSize = CGSize(width: UIScreen.main.bounds.width-20, height: 100)
+//        banner.interitemSpacing = 20
+        banner.itemSize = CGSize(width: UIScreen.main.bounds.width, height: 100)
         banner.registerCell(CollectionViewCell.self)
         return banner
     }()
@@ -100,9 +100,9 @@ extension ViewController:  PageViewDataSource, PageViewDelegate {
         return cell
     }
 
-    func pageView(_ pageView: PageView, willScrollToItemAt index: Int) {
-        print("------\(index)")
-    }
+//    func pageView(_ pageView: PageView, willScrollToItemAt index: Int) {
+//        print("------\(index)")
+//    }
 
     func pageView(_ pageView: PageView, didSelectItemAt index: Int) {
         print("dianji\(index)")
