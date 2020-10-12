@@ -346,18 +346,19 @@ extension PageView: UICollectionViewDelegate,UICollectionViewDataSource{
     public func scrollViewDidScroll(_ scrollView: UIScrollView) {
         if !isPossiblyRotating && numberOfItems > 0 {
             // In case someone is using KVO
-            let currentIndex = lround(Double(scrollOffset)) % numberOfItems
-            if (currentIndex != currentIndex) {
-                self.currentIndex = currentIndex
+            if let function = delegate?.pageView(_:willScrollToItemAt:){
+                let currentIdx = lround(Double(scrollOffset)) % numberOfItems
+                if (currentIndex != currentIdx) {
+                    currentIndex = currentIdx
+                }
+                function(self,currentIndex)
             }
-            
-            delegate?.pageView?(self, willScrollToItemAt: currentIndex)
-
         }
-        guard let function = delegate?.pageViewDidScroll else {
-            return
+        
+        if let function = delegate?.pageViewDidScroll  {
+            function(self, scrollOffset)
         }
-        function(self, scrollOffset)
+        
     }
     
     public func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
@@ -379,29 +380,26 @@ extension PageView: UICollectionViewDelegate,UICollectionViewDataSource{
             startTimer()
         }
     }
-    
-    public func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
-        if let function = delegate?.pageView(_:didScrollToItemAt:){
-            let currentIndex = lround(Double(scrollOffset)) % numberOfItems
-            if (currentIndex != currentIndex) {
-                self.currentIndex = currentIndex
-            }
-            function(self,currentIndex)
-        }
-    }
-    
+     
     public func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         if let function = delegate?.pageViewDidEndDecelerating {
             function(self)
+        }
+        if let function = delegate?.pageView(_:didScrollToItemAt:){
+            let currentIdx = lround(Double(scrollOffset)) % numberOfItems
+            if (currentIndex != currentIdx) {
+                currentIndex = currentIdx
+            }
+            function(self,currentIndex)
         }
     }
     
     public func scrollViewDidEndScrollingAnimation(_ scrollView: UIScrollView) {
         
         if let function = delegate?.pageView(_:didScrollToItemAt:){
-            let currentIndex = lround(Double(scrollOffset)) % numberOfItems
-            if (currentIndex != currentIndex) {
-                self.currentIndex = currentIndex
+            let currentIdx = lround(Double(scrollOffset)) % numberOfItems
+            if (currentIndex != currentIdx) {
+                currentIndex = currentIdx
             }
             function(self,currentIndex)
         }
@@ -447,11 +445,11 @@ extension PageView {
     
     fileprivate func nearbyIndexPath(for index: Int) -> IndexPath {
         // Is there a better algorithm?
-        let currentIndex = self.currentIndex
+        let currentIdx = currentIndex
         let currentSection = centermostIndexPath.section
-        if abs(currentIndex-index) <= numberOfItems/2 {
+        if abs(currentIdx-index) <= numberOfItems/2 {
             return IndexPath(item: index, section: currentSection)
-        } else if (index-currentIndex >= 0) {
+        } else if (index-currentIdx >= 0) {
             return IndexPath(item: index, section: currentSection-1)
         } else {
             return IndexPath(item: index, section: currentSection+1)

@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftPageView'
-  s.version          = '0.6.0'
+  s.version          = '0.8.0'
   s.summary          = 'A short description of SwiftPageView.'
 
 
