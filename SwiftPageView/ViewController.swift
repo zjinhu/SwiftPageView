@@ -22,6 +22,7 @@ class ViewController: UIViewController {
         banner.dataSource = self
         banner.delegate = self
         banner.automaticSlidingInterval = 3
+        banner.registerCell(LabelViewCell.self)
         banner.registerCell(CollectionViewCell.self)
         banner.backgroundColor = .cyan
         banner.interitemSpacing = 10
@@ -34,6 +35,7 @@ class ViewController: UIViewController {
         banner.dataSource = self
         banner.delegate = self
         banner.automaticSlidingInterval = 3
+        banner.registerCell(LabelViewCell.self)
         banner.registerCell(CollectionViewCell.self)
         banner.itemSize = CGSize(width: UIScreen.main.bounds.width, height: 100)
         banner.scrollDirection = .vertical
@@ -117,15 +119,28 @@ extension ViewController:  PageViewDataSource, PageViewDelegate {
     }
 
     func pageView(_ pageView: PageView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell: CollectionViewCell = pageView.dequeueReusableCell(CollectionViewCell.self, indexPath: indexPath)
-        if let name = array?[indexPath.row] {
-            cell.imageView.image = UIImage(named: name)
-            cell.titleLab.text = name
+        if indexPath.row > 1{
+            let cell: CollectionViewCell = pageView.dequeueReusableCell(CollectionViewCell.self, indexPath: indexPath)
+            
+            if let name = array?[indexPath.row] {
+                cell.imageView.image = UIImage(named: name)
+                cell.titleLab.text = name
+            }
+            
+            cell.imageView.layer.cornerRadius = 10
+            
+            return cell
+        }else{
+            
+            let cell: LabelViewCell = pageView.dequeueReusableCell(LabelViewCell.self, indexPath: indexPath)
+            
+            if let name = array?[indexPath.row] {
+                cell.titleLab.text = name
+            }
+
+            return cell
         }
-        
-        cell.imageView.layer.cornerRadius = 10
-        
-        return cell
+
     }
     
     func pageView(_ pageView: PageView, didSelectItemAt index: Int) {

@@ -25,3 +25,20 @@ class CollectionViewCell: UICollectionViewCell {
         fatalError("init(coder:) has not been implemented")
     }
 }
+
+
+class LabelViewCell: UICollectionViewCell {
+    public var titleLab = UILabel()
+
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+
+        titleLab.frame = bounds
+        titleLab.backgroundColor = .systemPink
+        contentView.addSubview(titleLab)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+}
