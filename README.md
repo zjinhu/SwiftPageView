@@ -2,7 +2,7 @@
 
 [![Version](https://img.shields.io/cocoapods/v/SwiftPageView.svg?style=flat)](https://cocoapods.org/pods/SwiftPageView)
 
-FSPagerView魔改，去掉pageControl，修改部分代理方法，改Cell为注册机制，支持自定义Cell，可配置 文字+图片 混合Banner，或纯文字轮播。
+FSPagerView魔改，去掉pageControl，修改部分代理方法，改Cell为注册机制，支持自定义Cell，可配置 文字+图片 混合Banner，或纯文字轮播，也能用在APP启动引导。
 
 | ![](1.png) | ![](2.png) |
 | ---------- | ---------- |
