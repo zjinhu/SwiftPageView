@@ -10,7 +10,7 @@ import UIKit
 import SwiftBrick
 class BasicExampleViewController: JHTableViewController,PageViewDataSource,PageViewDelegate {
     
-    fileprivate let sectionTitles = ["配置", "滚动距离", "大小", "间距"]
+    fileprivate let sectionTitles = ["配置", "手动滚动距离", "大小", "间距"]
     fileprivate let configurationTitles = ["自动滚动","无限滚动"]
     fileprivate let decelerationDistanceOptions = ["自动", "1", "2"]
     fileprivate let imageNames = ["1","2","3","4","5","6"]
