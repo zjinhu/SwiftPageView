@@ -7,38 +7,35 @@
 //
 
 import UIKit
-
-class CollectionViewCell: UICollectionViewCell {
+import SwiftBrick
+class CollectionViewCell: JHCollectionViewCell {
     public var titleLab = UILabel()
     public var imageView = UIImageView()
-    override init(frame: CGRect) {
-        super.init(frame: frame)
+
+    override func setupCellViews() {
         imageView.clipsToBounds = true
-        imageView.frame = bounds
+
         contentView.addSubview(imageView)
-        
-        titleLab.frame = bounds
+        imageView.snp.makeConstraints { (m) in
+            m.edges.equalToSuperview()
+        }
+
         contentView.addSubview(titleLab)
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        titleLab.snp.makeConstraints { (m) in
+            m.edges.equalToSuperview()
+        }
     }
 }
 
 
-class LabelViewCell: UICollectionViewCell {
+class LabelViewCell: JHCollectionViewCell {
     public var titleLab = UILabel()
-
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-
-        titleLab.frame = bounds
+    
+    override func setupCellViews() {
         titleLab.backgroundColor = .systemPink
         contentView.addSubview(titleLab)
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        titleLab.snp.makeConstraints { (m) in
+            m.edges.equalToSuperview()
+        }
     }
 }

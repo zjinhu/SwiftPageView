@@ -6,7 +6,8 @@
 //
 
 import UIKit
-
+///滚动样式 FSPagerView  https://github.com/WenchaoD/FSPagerView
+///修改为单层获取
 class Layout: UICollectionViewLayout {
 
     internal var contentSize: CGSize = .zero
@@ -19,6 +20,7 @@ class Layout: UICollectionViewLayout {
         return LayoutAttributes.self
     }
     
+    ///修改为单层获取
     fileprivate var pagerView: PageView? {
         return self.collectionView?.superview as? PageView
     }

@@ -1,29 +1,24 @@
 # SwiftPageView
 
-[![CI Status](https://img.shields.io/travis/jackiehu/SwiftPageView.svg?style=flat)](https://travis-ci.org/jackiehu/SwiftPageView)
 [![Version](https://img.shields.io/cocoapods/v/SwiftPageView.svg?style=flat)](https://cocoapods.org/pods/SwiftPageView)
-[![License](https://img.shields.io/cocoapods/l/SwiftPageView.svg?style=flat)](https://cocoapods.org/pods/SwiftPageView)
-[![Platform](https://img.shields.io/cocoapods/p/SwiftPageView.svg?style=flat)](https://cocoapods.org/pods/SwiftPageView)
 
-## Example
+FSPagerView魔改，去掉pageControl，修改部分代理方法，改Cell为注册机制，支持自定义Cell，可配置 文字+图片 混合Banner，或纯文字轮播。
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+| ![](1.png) | ![](2.png) |
+| ---------- | ---------- |
+| ![](3.png) | ![](4.png) |
+| ![](5.png) |            |
 
-## Requirements
+### 安装支持
 
-## Installation
-
-SwiftPageView is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+#### cocoapods导入
 
 ```ruby
 pod 'SwiftPageView'
 ```
 
-## Author
+#### SPM导入
 
-jackiehu, jackie
+`https://github.com/jackiehu/SwiftPageView`
 
-## License
-
-SwiftPageView is available under the MIT license. See the LICENSE file for more info.
+#### 手动导入

@@ -30,17 +30,6 @@ class ViewController: UIViewController {
         return banner
     }()
     
-    lazy var banner2: PageView = {
-        let banner = PageView()
-        banner.dataSource = self
-        banner.delegate = self
-        banner.automaticSlidingInterval = 3
-        banner.registerCell(LabelViewCell.self)
-        banner.registerCell(CollectionViewCell.self)
-        banner.itemSize = CGSize(width: UIScreen.main.bounds.width, height: 100)
-        banner.scrollDirection = .vertical
-        return banner
-    }()
     
     lazy var codePageControl: JXPageControlJump = {
         let pageControl = JXPageControlJump()
@@ -69,6 +58,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "SwiftPageView"
+        
         view.addSubview(banner)
         banner.snp.makeConstraints { (m) in
             m.top.equalToSuperview().offset(100)
@@ -78,7 +69,7 @@ class ViewController: UIViewController {
         
         view.addSubview(pageControl)
         pageControl.snp.makeConstraints { (m) in
-            m.top.equalToSuperview().offset(400)
+            m.top.equalToSuperview().offset(300)
             m.left.right.equalToSuperview()
             m.height.equalTo(50)
         }
@@ -90,19 +81,12 @@ class ViewController: UIViewController {
             m.height.equalTo(30)
         }
 
-        view.addSubview(banner2)
-        banner2.snp.makeConstraints { (m) in
-            m.top.equalToSuperview().offset(300)
-            m.left.right.equalToSuperview()
-            m.height.equalTo(100)
-        }
     }
 
     override func viewDidAppear(_ animated: Bool) {
-        DispatchQueue.main.asyncAfter(deadline: .now()+1) {
+        DispatchQueue.main.asyncAfter(deadline: .now()+0.2) {
             self.array = ["1","2","3","4","5","6"]
             self.banner.reloadData()
-            self.banner2.reloadData()
             self.codePageControl.numberOfPages = self.array?.count ?? 0
             self.pageControl.numberOfPages = self.array?.count ?? 0
         }
@@ -135,7 +119,7 @@ extension ViewController:  PageViewDataSource, PageViewDelegate {
             let cell: LabelViewCell = pageView.dequeueReusableCell(LabelViewCell.self, indexPath: indexPath)
             
             if let name = array?[indexPath.row] {
-                cell.titleLab.text = name
+                cell.titleLab.text = name + "点击跳转到更多样式"
             }
 
             return cell
@@ -144,11 +128,19 @@ extension ViewController:  PageViewDataSource, PageViewDelegate {
     }
     
     func pageView(_ pageView: PageView, didSelectItemAt index: Int) {
-        print("dianji\(index)")
+        print("点击了\(index)")
+        if index == 0 {
+            let vc = BasicExampleViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+        if index == 1 {
+            let vc = TransformerExampleViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
     }
 
     func pageView(_ pageView: PageView, didScrollToItemAt index: Int) {
-        print("gundongdao\(index)")
+        print("滚动到了\(index)")
     }
     
     func pageViewDidScroll(_ pageView: PageView, scrollProgress: CGFloat) {

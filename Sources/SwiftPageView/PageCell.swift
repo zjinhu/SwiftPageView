@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+///内置基础样式,更多样式请自定义,并注册
 public class PageCell: UICollectionViewCell {
     public var imageView = UIImageView()
     

@@ -332,7 +332,6 @@ extension PageView: UICollectionViewDelegate,UICollectionViewDataSource{
     }
     
     // MARK: - UICollectionViewDelegate
-
     public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         collectionView.deselectItem(at: indexPath, animated: false)
         guard let function = delegate?.pageView(_:didSelectItemAt:) else {
@@ -413,6 +412,7 @@ extension PageView: UICollectionViewDelegate,UICollectionViewDataSource{
     }
     
 }
+
 // MARK: - 定时器操作
 extension PageView {
     
