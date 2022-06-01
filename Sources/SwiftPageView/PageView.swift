@@ -7,7 +7,7 @@
 
 import UIKit
 
-public protocol PageViewDataSource : class {
+public protocol PageViewDataSource: AnyObject{
     
     /// 代理:设置page个数
     /// - Parameter pageView: pageView
